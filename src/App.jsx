@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import CurrentWeather from './components/CurrentWeather';
 import Forecast from './components/Forecast';
 import SearchBar from './components/SearchBar';
-import { getWeatherByCity, getForecast, getWeatherByCoords } from './services/api';
+import { getWeatherByCity, getForecast, getWeatherByCoords } from './service/api';
 import './styles.css';
 
 function App() {
